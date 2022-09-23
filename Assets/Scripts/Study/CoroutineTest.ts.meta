@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: e371cf34d89b9f6429eb6215871f0cca
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: "{\"source\":\"\\\"use strict\\\";\\r\\nObject.defineProperty(exports,
+    \\\"__esModule\\\", { value: true });\\r\\nconst UnityEngine_1 = require(\\\"UnityEngine\\\");\\r\\nconst
+    ZEPETO_Script_1 = require(\\\"ZEPETO.Script\\\");\\r\\nclass CoroutineTest extends
+    ZEPETO_Script_1.ZepetoScriptBehaviour {\\r\\n    Start() {\\r\\n        this.current
+    = 0;\\r\\n        console.log(`start routine`);\\r\\n        this.StartCoroutine(this.DoRoutine());\\r\\n   
+    }\\r\\n    *DoRoutine() {\\r\\n        while (true) {\\r\\n            yield
+    null; //\uD55C \uD504\uB808\uC784 \uBA48\uCDC4\uC744\uB54C\\r\\n            console.log(`[${this.current++}]
+    Wait to next routine..`);\\r\\n            //current \uCD94\uAC00..\uCD94\uAC00..\uCD94\uAC00\\r\\n           
+    yield new UnityEngine_1.WaitForSeconds(1);\\r\\n        }\\r\\n    }\\r\\n}\\r\\nexports.default
+    = CoroutineTest;\\r\\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ29yb3V0aW5lVGVzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkNvcm91dGluZVRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSw2Q0FBNkM7QUFDN0MsaURBQXFEO0FBRXJELE1BQXFCLGFBQWMsU0FBUSxxQ0FBcUI7SUFHNUQsS0FBSztRQUNELElBQUksQ0FBQyxPQUFPLEdBQUcsQ0FBQyxDQUFDO1FBQ2pCLE9BQU8sQ0FBQyxHQUFHLENBQUMsZUFBZSxDQUFDLENBQUM7UUFDN0IsSUFBSSxDQUFDLGNBQWMsQ0FBQyxJQUFJLENBQUMsU0FBUyxFQUFFLENBQUMsQ0FBQztJQUUxQyxDQUFDO0lBRUQsQ0FBQyxTQUFTO1FBQ04sT0FBTyxJQUFJLEVBQUU7WUFDVCxNQUFNLElBQUksQ0FBQyxDQUFDLFlBQVk7WUFDeEIsT0FBTyxDQUFDLEdBQUcsQ0FBQyxJQUFJLElBQUksQ0FBQyxPQUFPLEVBQUUsMEJBQTBCLENBQUMsQ0FBQztZQUMxRCxvQkFBb0I7WUFDcEIsTUFBTSxJQUFJLDRCQUFjLENBQUMsQ0FBQyxDQUFDLENBQUM7U0FDL0I7SUFDTCxDQUFDO0NBRUo7QUFuQkQsZ0NBbUJDIn0=\",\"assetPath\":\"Assets/Scripts/CoroutineTest.ts\",\"manifest\":{\"properties\":[],\"name\":\"CoroutineTest\",\"description\":\"\"},\"isCompiled\":true}"
+  typescriptHash: c0262f8a9673dcb2d544fa498b887e48
+  onlyWriteTrigger: 0

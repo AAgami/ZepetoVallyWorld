@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 2df0c0c3b5c965e499b4f1dbfc6509c2
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst UnityEngine_1 = require(\"UnityEngine\");\r\nconst
+    ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass GameObjectComponent extends
+    ZEPETO_Script_1.ZepetoScriptBehaviour {\r\n    Start() {\r\n        //GameObject
+    Create\r\n        var tempObj = new UnityEngine_1.GameObject();\r\n        var
+    obj = UnityEngine_1.GameObject.Instantiate(tempObj);\r\n        //GameObject
+    Destroy\r\n        UnityEngine_1.GameObject.Destroy(obj);\r\n        //GetComponent
+    with Generic\r\n        var myTransform = this.GetComponent($typeof(UnityEngine_1.Transform));\r\n       
+    myTransform.position = UnityEngine_1.Vector3.op_Subtraction(myTransform.position,
+    new UnityEngine_1.Vector3(1, 3, 1));\r\n        //AddComponent with Generic\r\n       
+    var animator = this.gameObject.AddComponent($typeof(UnityEngine_1.Animator));\r\n   
+    }\r\n}\r\nexports.default = GameObjectComponent;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2FtZU9iamVjdENvbXBvbmVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIkdhbWVPYmplY3RDb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSw2Q0FBc0U7QUFDdEUsaURBQXFEO0FBRXJELE1BQXFCLG1CQUFvQixTQUFRLHFDQUFxQjtJQUVsRSxLQUFLO1FBQ0QsbUJBQW1CO1FBQ25CLElBQUksT0FBTyxHQUFHLElBQUksd0JBQVUsRUFBRSxDQUFDO1FBQy9CLElBQUksR0FBRyxHQUFHLHdCQUFVLENBQUMsV0FBVyxDQUFDLE9BQU8sQ0FBQyxDQUFDO1FBRTFDLG9CQUFvQjtRQUNwQix3QkFBVSxDQUFDLE9BQU8sQ0FBQyxHQUFHLENBQUMsQ0FBQztRQUV4QiwyQkFBMkI7UUFDM0IsSUFBSSxXQUFXLEdBQUcsSUFBSSxDQUFDLFlBQVksU0FBQyx1QkFBUyxFQUFHLENBQUM7UUFDakQsV0FBVyxDQUFDLFFBQVEsR0FBRyxxQkFBTyxDQUFDLGNBQWMsQ0FBQyxXQUFXLENBQUMsUUFBUSxFQUFFLElBQUkscUJBQU8sQ0FBQyxDQUFDLEVBQUUsQ0FBQyxFQUFFLENBQUMsQ0FBQyxDQUFDLENBQUM7UUFDMUYsMkJBQTJCO1FBQzNCLElBQUksUUFBUSxHQUFHLElBQUksQ0FBQyxVQUFVLENBQUMsWUFBWSxTQUFDLHNCQUFRLEVBQUcsQ0FBQztJQUU1RCxDQUFDO0NBRUo7QUFsQkQsc0NBa0JDIn0=","assetPath":"Assets/Scripts/GameObjectComponent.ts","manifest":{"properties":[],"name":"GameObjectComponent","description":""},"isCompiled":true}'
+  typescriptHash: 4b22c5cf2f519ad19833e4e0b45c2e4d
+  onlyWriteTrigger: 0

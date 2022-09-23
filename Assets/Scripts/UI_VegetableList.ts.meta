@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: 9225f53f05cc91347a9c213fd92c6f7c
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: "{\"source\":\"\\\"use strict\\\";\\r\\nObject.defineProperty(exports,
+    \\\"__esModule\\\", { value: true });\\r\\nconst TMPro_1 = require(\\\"TMPro\\\");\\r\\nconst
+    ZEPETO_Script_1 = require(\\\"ZEPETO.Script\\\");\\r\\nconst PlayerData_1 = require(\\\"./PlayerData\\\");\\r\\nclass
+    UI_VegetableList extends ZEPETO_Script_1.ZepetoScriptBehaviour {\\r\\n    Start()
+    {\\r\\n        this._carrotList.GetComponent($typeof(TMPro_1.TextMeshProUGUI));\\r\\n       
+    this._cabbageList.GetComponent($typeof(TMPro_1.TextMeshProUGUI));\\r\\n       
+    this._allList.GetComponent($typeof(TMPro_1.TextMeshProUGUI));\\r\\n        this._warningA.GetComponent($typeof(TMPro_1.TextMeshProUGUI));\\r\\n   
+    }\\r\\n    WarningA() {\\r\\n        if (this._warningBack.SetActive) {\\r\\n           
+    this._warningA.text = `\uC544\uC9C1 \uC218\uD655\uD560 \uC218 \uC5C6\uC5B4\uC694.`;\\r\\n       
+    }\\r\\n    }\\r\\n    Update() {\\r\\n        const carrotText = PlayerData_1.default.instance.carrotCount.toString().length
+    < 3 ? '00' + PlayerData_1.default.instance.carrotCount : PlayerData_1.default.instance.carrotCount;\\r\\n       
+    this._carrotList.text = `${carrotText}`;\\r\\n        const cabbageText = PlayerData_1.default.instance.cabbageCount.toString().length
+    < 3 ? '00' + PlayerData_1.default.instance.cabbageCount : PlayerData_1.default.instance.cabbageCount;\\r\\n       
+    this._cabbageList.text = `${cabbageText}`;\\r\\n        const allText = PlayerData_1.default.instance.allCount.toString().length
+    < 3 ? '00' + PlayerData_1.default.instance.allCount : PlayerData_1.default.instance.allCount;\\r\\n       
+    this._allList.text = `${allText}`;\\r\\n    }\\r\\n}\\r\\nexports.default = UI_VegetableList;\\r\\n//#
+    sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVUlfVmVnZXRhYmxlTGlzdC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIlVJX1ZlZ2V0YWJsZUxpc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSxpQ0FBdUM7QUFDdkMsaURBQXFEO0FBR3JELDZDQUFzQztBQUd0QyxNQUFxQixnQkFBaUIsU0FBUSxxQ0FBcUI7SUFTL0QsS0FBSztRQUNELElBQUksQ0FBQyxXQUFXLENBQUMsWUFBWSxTQUFDLHVCQUFlLEdBQUk7UUFDakQsSUFBSSxDQUFDLFlBQVksQ0FBQyxZQUFZLFNBQUMsdUJBQWUsR0FBSTtRQUNsRCxJQUFJLENBQUMsUUFBUSxDQUFDLFlBQVksU0FBQyx1QkFBZSxHQUFJO1FBQzlDLElBQUksQ0FBQyxTQUFTLENBQUMsWUFBWSxTQUFDLHVCQUFlLEdBQUk7SUFFbkQsQ0FBQztJQUNELFFBQVE7UUFDSixJQUFJLElBQUksQ0FBQyxZQUFZLENBQUMsU0FBUyxFQUFFO1lBRTdCLElBQUksQ0FBQyxTQUFTLENBQUMsSUFBSSxHQUFHLGVBQWUsQ0FBQztTQUV6QztJQUdMLENBQUM7SUFJRCxNQUFNO1FBQ0YsTUFBTSxVQUFVLEdBQUcsb0JBQVUsQ0FBQyxRQUFRLENBQUMsV0FBVyxDQUFDLFFBQVEsRUFBRSxDQUFDLE1BQU0sR0FBRyxDQUFDLENBQUMsQ0FBQyxDQUFDLElBQUksR0FBRyxvQkFBVSxDQUFDLFFBQVEsQ0FBQyxXQUFXLENBQUMsQ0FBQyxDQUFDLG9CQUFVLENBQUMsUUFBUSxDQUFDLFdBQVcsQ0FBQztRQUNwSixJQUFJLENBQUMsV0FBVyxDQUFDLElBQUksR0FBRyxHQUFHLFVBQVUsRUFBRSxDQUFDO1FBRXhDLE1BQU0sV0FBVyxHQUFHLG9CQUFVLENBQUMsUUFBUSxDQUFDLFlBQVksQ0FBQyxRQUFRLEVBQUUsQ0FBQyxNQUFNLEdBQUcsQ0FBQyxDQUFDLENBQUMsQ0FBQyxJQUFJLEdBQUcsb0JBQVUsQ0FBQyxRQUFRLENBQUMsWUFBWSxDQUFDLENBQUMsQ0FBQyxvQkFBVSxDQUFDLFFBQVEsQ0FBQyxZQUFZLENBQUM7UUFDeEosSUFBSSxDQUFDLFlBQVksQ0FBQyxJQUFJLEdBQUcsR0FBRyxXQUFXLEVBQUUsQ0FBQztRQUUxQyxNQUFNLE9BQU8sR0FBRyxvQkFBVSxDQUFDLFFBQVEsQ0FBQyxRQUFRLENBQUMsUUFBUSxFQUFFLENBQUMsTUFBTSxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUMsSUFBSSxHQUFHLG9CQUFVLENBQUMsUUFBUSxDQUFDLFFBQVEsQ0FBQyxDQUFDLENBQUMsb0JBQVUsQ0FBQyxRQUFRLENBQUMsUUFBUSxDQUFDO1FBQ3hJLElBQUksQ0FBQyxRQUFRLENBQUMsSUFBSSxHQUFHLEdBQUcsT0FBTyxFQUFFLENBQUM7SUFLdEMsQ0FBQztDQUVKO0FBM0NELG1DQTJDQyJ9\",\"assetPath\":\"Assets/Scripts/UI_VegetableList.ts\",\"manifest\":{\"properties\":[{\"assembly\":\"Unity.TextMeshPro\",\"name\":\"_carrotList\",\"type\":\"TMPro.TextMeshProUGUI\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]},{\"assembly\":\"Unity.TextMeshPro\",\"name\":\"_cabbageList\",\"type\":\"TMPro.TextMeshProUGUI\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]},{\"assembly\":\"Unity.TextMeshPro\",\"name\":\"_allList\",\"type\":\"TMPro.TextMeshProUGUI\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]},{\"assembly\":\"Unity.TextMeshPro\",\"name\":\"_warningA\",\"type\":\"TMPro.TextMeshProUGUI\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]},{\"assembly\":\"UnityEngine.CoreModule\",\"name\":\"_warningBack\",\"type\":\"UnityEngine.GameObject\",\"isArray\":false,\"initValue\":[],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[{\"name\":\"SerializeField\",\"args\":[]}]}],\"name\":\"UI_VegetableList\",\"description\":\"\"},\"isCompiled\":true}"
+  typescriptHash: a417b4cdc9e9494340e195ee5b221a96
+  onlyWriteTrigger: 0
