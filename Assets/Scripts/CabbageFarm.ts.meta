@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 14598c708cbbaba4cb286b691cb5284a
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst Farm_1 = require(\"./Farm\");\r\nconst PlayerData_1
+    = require(\"./PlayerData\");\r\nclass CabbageFarm extends Farm_1.default {\r\n   
+    OnTake() {\r\n        PlayerData_1.default.instance.AddCabbage();\r\n       
+    PlayerData_1.default.instance.AllVegettable();\r\n    }\r\n}\r\nexports.default
+    = CabbageFarm;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQ2FiYmFnZUZhcm0uanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJDYWJiYWdlRmFybS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUNBLGlDQUEwQjtBQUMxQiw2Q0FBc0M7QUFFdEMsTUFBcUIsV0FBWSxTQUFRLGNBQUk7SUFFekMsTUFBTTtRQUNGLG9CQUFVLENBQUMsUUFBUSxDQUFDLFVBQVUsRUFBRSxDQUFDO1FBQ2pDLG9CQUFVLENBQUMsUUFBUSxDQUFDLGFBQWEsRUFBRSxDQUFDO0lBRXhDLENBQUM7Q0FFSjtBQVJELDhCQVFDIn0=","assetPath":"Assets/Scripts/CabbageFarm.ts","manifest":{"properties":[{"assembly":"UnityEngine.AnimationModule","name":"_takeclip","type":"UnityEngine.AnimationClip","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[{"name":"SerializeField","args":[]}]},{"assembly":"UnityEngine.CoreModule","name":"_vegetable","type":"UnityEngine.GameObject","isArray":false,"initValue":[],"enumKeys":[],"enumValues":[],"attributes":[{"name":"SerializeField","args":[]}]}],"name":"CabbageFarm","description":""},"isCompiled":true}'
+  typescriptHash: 7db3522c85929bf5603c9d0eff5b5e53
+  onlyWriteTrigger: 0

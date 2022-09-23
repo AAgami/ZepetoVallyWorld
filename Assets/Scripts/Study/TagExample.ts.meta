@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: a47a234cefcfd284a9064e12f63c63a1
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst UnityEngine_1 = require(\"UnityEngine\");\r\nconst
+    ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nclass TagExample extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    Start() {\r\n        let findObj = UnityEngine_1.GameObject.FindGameObjectWithTag(\"CustomTag\");\r\n       
+    if (null != findObj) {\r\n            console.log(`name : ${findObj.name}`);\r\n       
+    }\r\n    }\r\n}\r\nexports.default = TagExample;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGFnRXhhbXBsZS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIlRhZ0V4YW1wbGUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSw2Q0FBd0M7QUFDeEMsaURBQXFEO0FBRXJELE1BQXFCLFVBQVcsU0FBUSxxQ0FBcUI7SUFFekQsS0FBSztRQUNELElBQUksT0FBTyxHQUFHLHdCQUFVLENBQUMscUJBQXFCLENBQUMsV0FBVyxDQUFDLENBQUM7UUFDNUQsSUFBSSxJQUFJLElBQUksT0FBTyxFQUFFO1lBQ2pCLE9BQU8sQ0FBQyxHQUFHLENBQUMsVUFBVSxPQUFPLENBQUMsSUFBSSxFQUFFLENBQUMsQ0FBQztTQUN6QztJQUVMLENBQUM7Q0FFSjtBQVZELDZCQVVDIn0=","assetPath":"Assets/Scripts/TagExample.ts","manifest":{"properties":[],"name":"TagExample","description":""},"isCompiled":true}'
+  typescriptHash: e0486d35f9ce6380dec4e4b4d7f8635d
+  onlyWriteTrigger: 0

@@ -1,0 +1,37 @@
+fileFormatVersion: 2
+guid: fbbdc403e486d6c4e9455f575f9dd3dd
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: "{\"source\":\"\\\"use strict\\\";\\r\\nObject.defineProperty(exports,
+    \\\"__esModule\\\", { value: true });\\r\\nconst UnityEngine_1 = require(\\\"UnityEngine\\\");\\r\\nconst
+    ZEPETO_Script_1 = require(\\\"ZEPETO.Script\\\");\\r\\nclass PlayerData extends
+    ZEPETO_Script_1.ZepetoScriptBehaviour {\\r\\n    constructor() {\\r\\n       
+    super(...arguments);\\r\\n        this.carrotCount = 0;\\r\\n        this.cabbageCount
+    = 0;\\r\\n        this.allCount = 0;\\r\\n    }\\r\\n    Awake() {\\r\\n       
+    PlayerData.instance = this; //\uC678\uBD80\uC5D0\uC11C \uC4F8 \uB54C Awake\uC5D0
+    \uC790\uAE30\uC790\uC2E0\uC744..\uB123\uC5B4\uB1A7\uC73C\uB2C8??  \uBB50\\r\\n   
+    }\\r\\n    AddCarrot() {\\r\\n        this.carrotCount += 1;\\r\\n        UnityEngine_1.Debug.Log(\\\"\uB2F9\uADFC
+    \uAC2F\uC218 : \\\" + this.carrotCount);\\r\\n    }\\r\\n    AddCabbage() {\\r\\n       
+    this.cabbageCount += 1;\\r\\n        UnityEngine_1.Debug.Log(\\\"\uBC30\uCD94
+    \uAC2F\uC218 : \\\" + this.cabbageCount);\\r\\n    }\\r\\n    AllVegettable()
+    {\\r\\n        this.allCount = this.carrotCount + this.cabbageCount;\\r\\n       
+    UnityEngine_1.Debug.Log(\\\"\uBAA8\uB4E0 \uCC44\uC18C \uAC2F\uC218: \\\" + this.allCount);\\r\\n   
+    }\\r\\n}\\r\\nexports.default = PlayerData;\\r\\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUGxheWVyRGF0YS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIlBsYXllckRhdGEudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSw2Q0FBb0M7QUFFcEMsaURBQXFEO0FBRXJELE1BQXFCLFVBQVcsU0FBUSxxQ0FBcUI7SUFBN0Q7O1FBR1csZ0JBQVcsR0FBRyxDQUFDLENBQUM7UUFDaEIsaUJBQVksR0FBRyxDQUFDLENBQUM7UUFDakIsYUFBUSxHQUFHLENBQUMsQ0FBQztJQW9CeEIsQ0FBQztJQWpCRyxLQUFLO1FBQ0QsVUFBVSxDQUFDLFFBQVEsR0FBRyxJQUFJLENBQUMsQ0FBQyxtQ0FBbUM7SUFDbkUsQ0FBQztJQUNNLFNBQVM7UUFDWixJQUFJLENBQUMsV0FBVyxJQUFJLENBQUMsQ0FBQztRQUN0QixtQkFBSyxDQUFDLEdBQUcsQ0FBQyxVQUFVLEdBQUcsSUFBSSxDQUFDLFdBQVcsQ0FBQyxDQUFDO0lBQzdDLENBQUM7SUFDTSxVQUFVO1FBQ2IsSUFBSSxDQUFDLFlBQVksSUFBSSxDQUFDLENBQUM7UUFDdkIsbUJBQUssQ0FBQyxHQUFHLENBQUMsVUFBVSxHQUFHLElBQUksQ0FBQyxZQUFZLENBQUMsQ0FBQztJQUM5QyxDQUFDO0lBRU0sYUFBYTtRQUNoQixJQUFJLENBQUMsUUFBUSxHQUFHLElBQUksQ0FBQyxXQUFXLEdBQUcsSUFBSSxDQUFDLFlBQVksQ0FBQztRQUNyRCxtQkFBSyxDQUFDLEdBQUcsQ0FBQyxZQUFZLEdBQUcsSUFBSSxDQUFDLFFBQVEsQ0FBQyxDQUFDO0lBQzVDLENBQUM7Q0FFSjtBQXpCRCw2QkF5QkMifQ==\",\"assetPath\":\"Assets/Scripts/PlayerData.ts\",\"manifest\":{\"properties\":[{\"assembly\":\"mscorlib\",\"name\":\"carrotCount\",\"type\":\"System.Single\",\"isArray\":false,\"initValue\":[\"0\"],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]},{\"assembly\":\"mscorlib\",\"name\":\"cabbageCount\",\"type\":\"System.Single\",\"isArray\":false,\"initValue\":[\"0\"],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]},{\"assembly\":\"mscorlib\",\"name\":\"allCount\",\"type\":\"System.Single\",\"isArray\":false,\"initValue\":[\"0\"],\"enumKeys\":[],\"enumValues\":[],\"attributes\":[]}],\"name\":\"PlayerData\",\"description\":\"\"},\"isCompiled\":true}"
+  typescriptHash: 36566ee8bfebda70ed906a87d5760bc4
+  onlyWriteTrigger: 0

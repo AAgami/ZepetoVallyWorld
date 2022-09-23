@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 7cd5047b749aaca41aed861a3249ddb3
+importerOverride: ZEPETO.Script.Compiler:ZEPETO.Script:TypescriptAssetImporter
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: -1123457745, guid: 54cf806323ffe4418a4ce4cc63fe6b9d, type: 3}
+  isAssemblyDeclarations: 0
+  assembly: 
+  generateAllTypes: 1
+  types: []
+  generateWrapper: 0
+  overrideWrapperTypes: 0
+  wrapperTypes: []
+  WrapperFilters: []
+  wrapperOutputDirectory: Generated
+  compiledResult: '{"source":"\"use strict\";\r\nObject.defineProperty(exports, \"__esModule\",
+    { value: true });\r\nconst ZEPETO_Script_1 = require(\"ZEPETO.Script\");\r\nconst
+    UnityEngine_1 = require(\"UnityEngine\");\r\nclass RayCastTest extends ZEPETO_Script_1.ZepetoScriptBehaviour
+    {\r\n    Update() {\r\n        this.MouseControl();\r\n    }\r\n    MouseControl()
+    {\r\n        if (UnityEngine_1.Input.GetMouseButtonDown(0)) {\r\n           
+    let ray = UnityEngine_1.Camera.main.ScreenPointToRay(UnityEngine_1.Input.mousePosition);\r\n           
+    let ref = $ref();\r\n            if (UnityEngine_1.Physics.Raycast(ray, ref,
+    1000)) {\r\n                let hitInfo = $unref(ref);\r\n                console.log(`Detect
+    Hit!`);\r\n                console.log(`hitInfo.collider.name:${hitInfo.collider.name}`);\r\n           
+    }\r\n            else {\r\n                console.log(`Failed to Detect Collision`);\r\n           
+    }\r\n        }\r\n    }\r\n}\r\nexports.default = RayCastTest;\r\n//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiUmF5Q2FzdFRlc3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJSYXlDYXN0VGVzdC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLGlEQUFxRDtBQUNyRCw2Q0FBaUU7QUFFakUsTUFBcUIsV0FBWSxTQUFRLHFDQUFxQjtJQUUxRCxNQUFNO1FBQ0YsSUFBSSxDQUFDLFlBQVksRUFBRSxDQUFDO0lBQ3hCLENBQUM7SUFFRCxZQUFZO1FBQ1IsSUFBSSxtQkFBSyxDQUFDLGtCQUFrQixDQUFDLENBQUMsQ0FBQyxFQUFFO1lBQzdCLElBQUksR0FBRyxHQUFHLG9CQUFNLENBQUMsSUFBSSxDQUFDLGdCQUFnQixDQUFDLG1CQUFLLENBQUMsYUFBYSxDQUFDLENBQUM7WUFDNUQsSUFBSSxHQUFHLEdBQUcsSUFBSSxFQUFjLENBQUM7WUFFN0IsSUFBSSxxQkFBTyxDQUFDLE9BQU8sQ0FBQyxHQUFHLEVBQUUsR0FBRyxFQUFFLElBQUksQ0FBQyxFQUFFO2dCQUNqQyxJQUFJLE9BQU8sR0FBRyxNQUFNLENBQUMsR0FBRyxDQUFDLENBQUM7Z0JBRTFCLE9BQU8sQ0FBQyxHQUFHLENBQUMsYUFBYSxDQUFDLENBQUM7Z0JBQzNCLE9BQU8sQ0FBQyxHQUFHLENBQUMseUJBQXlCLE9BQU8sQ0FBQyxRQUFRLENBQUMsSUFBSSxFQUFFLENBQUMsQ0FBQzthQUNqRTtpQkFDSTtnQkFDRCxPQUFPLENBQUMsR0FBRyxDQUFDLDRCQUE0QixDQUFDLENBQUM7YUFDN0M7U0FDSjtJQUNMLENBQUM7Q0FDSjtBQXRCRCw4QkFzQkMifQ==","assetPath":"Assets/Scripts/RayCastTest.ts","manifest":{"properties":[],"name":"RayCastTest","description":""},"isCompiled":true}'
+  typescriptHash: fcd00820e22e5cdd881cae23069c4e8f
+  onlyWriteTrigger: 0
